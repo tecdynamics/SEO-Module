@@ -1,0 +1,67 @@
+
+<link href="<@ ModulePath @>assets/core.css" rel="stylesheet" type="text/css" media="screen" />  
+	 
+<div class="zmodule_content panel" id="zmodule_header_<@ ModuleName @>">
+    <div class="panel-heading">
+<div id="content">
+<div id="alldivs"><H1><img src="<@ ModuleIcon @>" width="50px" height="28px" ><: Keyword Generator :></H1>
+        <div class="zmodule_desc" id="zmodule_desc_<@ ModuleName @>"><: Keyword Tool will help you discover thousands of the new longtail keywords related to the topic that you specify by automatically generating Google's auto suggestions. The auto suggestions will be generated based on the Google domain and language that you choose.  :></p>
+</div>
+      
+    <div class="zform_wrapper">
+      
+  <% if Parse_words %>
+ <H1>Output - keywords</H1>
+ <H2>words</H2> 
+<div id="words">
+     <@ Parse_words @> 
+</div>
+
+ <% if Parse_2words %>
+ <H2>2 words phrase</H2>
+<div id="words">
+  <@ Parse_2words @>
+ </div>
+<% endif %>
+
+ <% if Parse_3words %>
+<H2>3 words phrase</H2>
+<div id="words"> 
+<@ Parse_3words @>
+ </div> 
+<% endif %>
+
+ <% if Keywords %>
+ <H2>All together</H2>
+<div id="words"> 
+     <@ Keywords @> 
+</div>
+<% endif %>
+
+    
+<% endif %>
+</div>
+        </div>   
+<h2><: Paste your code :></h2>
+<form method="post" id="form" class="form" action="./?module=tecseo&action=autoceo">
+    <p>   <textarea name="data" id="styled" onfocus="this.value=''; setbg('#e5fff3');" onblur="setbg('white')"><: Enter your text here... :></textarea></p>
+<p><input type="submit" name="<: Generate :>" class="submit" value="<: Generate :>"></p>
+
+</form>  
+</div>
+    </div>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_donations">
+<input type="hidden" name="business" value="support@tecdynamics.co.uk">
+<input type="hidden" name="lc" value="GB">
+<input type="hidden" name="item_name" value="Tec-Dynamics LTD">
+<input type="hidden" name="item_number" value="sentora-Seo">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="currency_code" value="GBP">
+<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+	
+           </div>     

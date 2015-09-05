@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+    <name>Tec-Seo</name>
+    <version>1.0.0</version>
+    <defaultcat>Advanced</defaultcat>
+    <desc>Tec-Seo Keyword Tool is the best Google Keyword generator.</desc>
+    <authorname>Tec-Dynamics LTD</authorname>
+    <authoremail>support@tec-dynamics.co.uk</authoremail>
+    <authorurl>http://tec-dynamics.co.uk</authorurl>
+    <updateurl>http://zpp.tec-dynamics.co.uk/version.xml</updateurl>
+</module>

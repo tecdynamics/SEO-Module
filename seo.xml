@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updateserver>
+	<latestversion>1.0.0</latestversion>
+	<downloadurl>http://zpp.tec-dynamics.co.uk.com/zpp/tecseo.zpp</downloadurl>
+	<desc>This module is for Sentora with the ability of SEO keyword generator for your clients.</desc>
+	<updatedesc>Added update checker and XML datafile.</updatedesc>
+	<authorname>TEC-Dynamics LTD (support @ tec-dynamics)</authorname>
+	<authoremail>support@tecdynamics.co.uk</authoremail>
+	<authorurl>http://tec-dynamics.co.uk</authorurl>
+	<ostype>all</ostype>
+</updateserver>
